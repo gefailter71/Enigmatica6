@@ -16,7 +16,7 @@
     },
     "CentrifugeData": {
         "hasCentrifugeOutput": true,
-        "mainOutput": "wstweaks:fragments",
+        "mainOutput": "wstweaks:fragment",
         "mainOutputWeight": 0.005
     },
     "SpawnData": {},
