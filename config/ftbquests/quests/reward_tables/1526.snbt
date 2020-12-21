@@ -1,7 +1,7 @@
 {
 	id: 1526,
 	title: "Rare Ars Nouveau Loot",
-	icon: "aquaculture:lockbox",
+	icon: "kubejs:rare_lootbox",
 	loot_size: 1,
 	hide_tooltip: true,
 	use_title: true,
@@ -57,6 +57,20 @@
 					}]
 				}
 			}
+		},
+		{
+			item: {
+				id: "minecraft:potion",
+				Count: true,
+				tag: {
+					Potion: "ars_nouveau:mana_regen_potion_strong"
+				}
+			},
+			count: 3
+		},
+		{
+			item: "ars_nouveau:mana_berry",
+			count: 64
 		}
 	]
 }

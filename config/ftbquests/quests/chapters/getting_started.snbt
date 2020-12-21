@@ -1,7 +1,7 @@
 {
 	id: 68,
 	filename: "getting_started",
-	order_index: 2,
+	order_index: 8,
 	title: "Getting Started",
 	icon: "minecraft:nether_star",
 	default_quest_shape: "",
@@ -32,11 +32,9 @@
 				icon: "minecraft:oak_sapling"
 			}],
 			rewards: [{
-				id: 1072,
-				type: "item",
-				item: "simplefarming:pancakes",
-				count: 2,
-				random_bonus: 3
+				id: 2707,
+				type: "random",
+				table: 11
 			}]
 		},
 		{

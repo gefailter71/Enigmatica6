@@ -1,7 +1,7 @@
 {
 	id: 147,
 	filename: "tools",
-	order_index: 3,
+	order_index: 10,
 	title: "Tools",
 	icon: {
 		id: "minecraft:netherite_pickaxe",
@@ -35,12 +35,9 @@
 					item: "pneumaticcraft:drill_bit_compressed_iron"
 				},
 				{
-					id: 2154,
-					type: "command",
-					title: "Miner's Delight",
-					icon: "artifacts:mimic_spawn_egg",
-					command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_miners_delight",
-					player_command: false
+					id: 2648,
+					type: "loot",
+					table: 13
 				}
 			]
 		},
@@ -67,7 +64,7 @@
 					id: 1784,
 					type: "command",
 					title: "Miner's Delight",
-					icon: "artifacts:mimic_spawn_egg",
+					icon: "kubejs:miners_delight",
 					command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_miners_delight",
 					player_command: false
 				}
@@ -96,7 +93,7 @@
 					id: 1783,
 					type: "command",
 					title: "Miner's Delight",
-					icon: "artifacts:mimic_spawn_egg",
+					icon: "kubejs:miners_delight",
 					command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_miners_delight",
 					player_command: false
 				}
@@ -416,9 +413,9 @@
 				}
 			}],
 			rewards: [{
-				id: 1609,
+				id: 2646,
 				type: "loot",
-				table: 11
+				table: 13
 			}]
 		},
 		{
@@ -521,9 +518,9 @@
 				}
 			],
 			rewards: [{
-				id: 1782,
+				id: 2645,
 				type: "loot",
-				table: 11
+				table: 22
 			}]
 		},
 		{
@@ -565,9 +562,9 @@
 				item: "pneumaticcraft:minigun_upgrade"
 			}],
 			rewards: [{
-				id: 1608,
+				id: 2647,
 				type: "loot",
-				table: 11
+				table: 22
 			}]
 		},
 		{
@@ -583,9 +580,12 @@
 				item: "pneumaticcraft:aerial_interface"
 			}],
 			rewards: [{
-				id: 1606,
-				type: "loot",
-				table: 13
+				id: 2196,
+				type: "command",
+				title: "Sorcerer's Delight",
+				icon: "kubejs:sorcerers_delight",
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_sorcerers_delight",
+				player_command: false
 			}]
 		},
 		{
@@ -989,7 +989,7 @@
 				tag: {}
 			},
 			x: -10.0d,
-			y: -15.0d,
+			y: -15.5d,
 			subtitle: "Frickin' Laser Beams",
 			description: [
 				"A powered tool capable of mining blocks from a distance. ",
@@ -1031,18 +1031,15 @@
 					item: "mininggadgets:upgrade_light_placer"
 				},
 				{
-					id: 1777,
-					type: "command",
-					title: "Miner's Delight",
-					icon: "artifacts:mimic_spawn_egg",
-					command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_miners_delight",
-					player_command: false
+					id: 2642,
+					type: "loot",
+					table: 13
 				}
 			]
 		},
 		{
-			x: -10.0d,
-			y: -12.5d,
+			x: -10.5d,
+			y: -12.0d,
 			subtitle: "This Little Light of Mine",
 			description: [
 				"A dream come true for any beginning spelunker.",
@@ -1063,12 +1060,9 @@
 				}
 			}],
 			rewards: [{
-				id: 1772,
-				type: "command",
-				title: "Miner's Delight",
-				icon: "artifacts:mimic_spawn_egg",
-				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_miners_delight",
-				player_command: false
+				id: 2670,
+				type: "loot",
+				table: 13
 			}]
 		},
 		{
@@ -1085,7 +1079,7 @@
 				id: 1775,
 				type: "command",
 				title: "Miner's Delight",
-				icon: "artifacts:mimic_spawn_egg",
+				icon: "kubejs:miners_delight",
 				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_miners_delight",
 				player_command: false
 			}]
@@ -1107,12 +1101,9 @@
 					item: "mininggadgets:upgrade_magnet"
 				},
 				{
-					id: 1776,
-					type: "command",
-					title: "Miner's Delight",
-					icon: "artifacts:mimic_spawn_egg",
-					command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_miners_delight",
-					player_command: false
+					id: 2643,
+					type: "loot",
+					table: 13
 				}
 			]
 		},
@@ -1130,7 +1121,7 @@
 				id: 1774,
 				type: "command",
 				title: "Miner's Delight",
-				icon: "artifacts:mimic_spawn_egg",
+				icon: "kubejs:miners_delight",
 				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_miners_delight",
 				player_command: false
 			}]
@@ -1146,12 +1137,9 @@
 				item: "mininggadgets:upgrade_battery_3"
 			}],
 			rewards: [{
-				id: 1773,
-				type: "command",
-				title: "Miner's Delight",
-				icon: "artifacts:mimic_spawn_egg",
-				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_miners_delight",
-				player_command: false
+				id: 2644,
+				type: "loot",
+				table: 13
 			}]
 		},
 		{
@@ -1410,7 +1398,7 @@
 					id: 1780,
 					type: "command",
 					title: "Sorcerer's Delight",
-					icon: "biomesoplenty:nether_crystal",
+					icon: "kubejs:sorcerers_delight",
 					command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_sorcerers_delight",
 					player_command: false
 				}
@@ -1437,7 +1425,7 @@
 				id: 1781,
 				type: "command",
 				title: "Sorcerer's Delight",
-				icon: "biomesoplenty:nether_crystal",
+				icon: "kubejs:sorcerers_delight",
 				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_sorcerers_delight",
 				player_command: false
 			}]
@@ -1483,12 +1471,9 @@
 					}
 				},
 				{
-					id: 1779,
-					type: "command",
-					title: "Miner's Delight",
-					icon: "artifacts:mimic_spawn_egg",
-					command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_miners_delight",
-					player_command: false
+					id: 2671,
+					type: "loot",
+					table: 13
 				}
 			]
 		},
@@ -1674,7 +1659,7 @@
 					id: 2149,
 					type: "command",
 					title: "Miner's Delight",
-					icon: "artifacts:mimic_spawn_egg",
+					icon: "kubejs:miners_delight",
 					command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_miners_delight",
 					player_command: false
 				}
@@ -1708,7 +1693,7 @@
 					id: 2150,
 					type: "command",
 					title: "Miner's Delight",
-					icon: "artifacts:mimic_spawn_egg",
+					icon: "kubejs:miners_delight",
 					command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_miners_delight",
 					player_command: false
 				}
@@ -1896,6 +1881,32 @@
 				id: 1636,
 				type: "loot",
 				table: 52
+			}]
+		},
+		{
+			x: -9.5d,
+			y: -12.0d,
+			subtitle: "Chiseled like a Greek God",
+			description: [
+				"It cuts, it grinds, it chisels, polishes and and even cooks and cleans!",
+				"",
+				"All the power of a Stone Cutter, now in a compact portable format that fits in the palm of your hand.",
+				"",
+				"Disclaimer: Will not actually cook or clean. Not for Commercial Use",
+				"",
+				"Warning: Keep away from children, animals, nitwits. Do not place hand on blade while in motion. Extended use may lead to fatigue and loss of vision."
+			],
+			dependencies: [I;1134],
+			id: 2807,
+			tasks: [{
+				id: 2808,
+				type: "item",
+				item: "portable_stonecutter:portable_stonecutter"
+			}],
+			rewards: [{
+				id: 2827,
+				type: "loot",
+				table: 13
 			}]
 		}
 	]

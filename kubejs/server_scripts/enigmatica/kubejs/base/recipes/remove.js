@@ -2,11 +2,15 @@ events.listen('recipes', function (event) {
     event.remove({ type: 'mekanism:combining' });
     event.remove({ type: 'minecraft:smelting', output: 'minecraft:obsidian' });
     event.remove({ type: 'minecraft:blasting', output: 'minecraft:obsidian' });
+    event.remove({ mod: 'prettypipes' });
 
     var outputRemovals = [
         'additionalbars:crossed_iron_bars',
 
         'bambooeverything:bamboo_bundle',
+
+        'byg:blue_enchanted_crafting_table',
+        'byg:green_enchanted_crafting_table',
 
         'decorative_blocks:lattice',
 
@@ -38,6 +42,8 @@ events.listen('recipes', function (event) {
         'aquaculture:neptunium_ingot_from_blasting',
         'aquaculture:neptinium_ingot_from_blasting',
 
+        'create:mechanical_crafting/integrated_circuit',
+
         'engineersdecor:dependent/slag_brick_block_recipe',
 
         'immersiveengineering:crafting/stick_steel',
@@ -63,11 +69,20 @@ events.listen('recipes', function (event) {
     });
 
     event.remove({
+        output: '/extrastorage:disk_\\w+/',
+        mod: 'extrastorage'
+    });
+    event.remove({
+        output: '/extrastorage:storagepart_\\w+/',
+        mod: 'extrastorage',
+        type: 'minecraft:crafting_shaped'
+    });
+
+    event.remove({
         output: '/buildersaddition:\\w+_vertical_slab/',
         mod: 'buildersaddition',
         type: 'minecraft:crafting_shaped'
     });
-
     beamRecipes.forEach((recipe) => {
         event.remove({ output: recipe.output });
     });
